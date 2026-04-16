@@ -1,7 +1,6 @@
 # multi_echo_fMRI_quantitative_analysis
 通过多回波fMRI数据，使用拟合以及深度学习的方法得到定量的T2*映射，是信号能与生理波动联系起来，减少伪影。
 
-# fmri_ABIDE
 本研究主要基于以下两篇文献做的复现以及改进
 An attention-based hybrid deep learning framework integrating brain
 connectivity and activity of resting-state functional MRI data
