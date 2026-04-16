@@ -1,0 +1,2 @@
+# multi_echo_fMRI_quantitative_analysis
+通过多回波fMRI数据，使用拟合以及深度学习的方法得到定量的T2*映射，是信号能与生理波动联系起来，减少伪影。
