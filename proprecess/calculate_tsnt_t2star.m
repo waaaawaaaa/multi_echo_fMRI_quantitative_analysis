@@ -3,17 +3,17 @@ clc;clear;
 
 % 读取文件，共三个回波
 %回波1
-nii_dir_echo1 = 'F:\朱梦莹毕业设计\proprecess\sub-001\func\sub-001_task-rest_run-1_echo-1_bold.nii';
+nii_dir_echo1 = '\func\sub-001_task-rest_run-1_echo-1_bold.nii';
 nii_echo1 = load_nii(nii_dir_echo1);
 data_4D_echo1 = double(nii_echo1.img);   %将单精度转换为了双精度
 
 %回波2
-nii_dir_echo2 = 'F:\朱梦莹毕业设计\proprecess\sub-001\func\sub-001_task-rest_run-1_echo-2_bold.nii';
+nii_dir_echo2 = '\func\sub-001_task-rest_run-1_echo-2_bold.nii';
 nii_echo2 = load_nii(nii_dir_echo2);
 data_4D_echo2 = double(nii_echo2.img);
 
 %回波3
-nii_dir_echo3 = 'F:\朱梦莹毕业设计\proprecess\sub-001\func\sub-001_task-rest_run-1_echo-3_bold.nii';
+nii_dir_echo3 = '\func\sub-001_task-rest_run-1_echo-3_bold.nii';
 nii_echo3 = load_nii(nii_dir_echo3);
 data_4D_echo3 = double(nii_echo3.img);
 
